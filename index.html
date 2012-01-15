@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Swarm!</title>
+
+        <link rel="stylesheet" href="styles/style.css" type="text/css" media="screen" charset="utf-8">
+    
+        <script src="js/script.js"></script>
+        <script src="js/underscore.min.js"></script>
+        <script src="js/caat.js"></script>
+
+        <script>
+            // Cache buster
+            function _t(str) { return str + '?' + (+new Date) }
+
+            $script(_t('js/swarm.js'),          'swarm');
+            $script(_t('js/swarm.bot.js'),      'swarm-bot');
+            $script(_t('js/swarm.collider.js'), 'swarm-collider');
+            $script(_t('js/swarm.game.js'),     'swarm-game');
+        </script>
+    </head>
+
+    <body>
+        <div id="gamewrap">
+            <canvas id="game"></canvas>
+        </div>
+
+        <script src="js/main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,10 @@
+body {
+    color:  #f2f2f2;
+}
+
+#game {
+    background: #fff;
+    width:      640px;
+    height:     480px;
+}
+
