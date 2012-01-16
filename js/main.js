@@ -1,5 +1,6 @@
 (function() {
-$script.ready(['swarm-game'], function() {
+$script.ready(['caat',
+              ,'swarm-game'], function() {
 
 var wrapper = document.getElementById('game')
 ,   director = new CAAT.Director().initialize(640, 480, wrapper)

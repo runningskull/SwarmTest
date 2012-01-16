@@ -12283,8 +12283,8 @@ CAAT.modules.CircleManager = CAAT.modules.CircleManager || {};/**
 
 						if( !this.circlesCanCollide(ci, cj) ) continue;   // It's us!
 
-						var dx = cj.position.x - ci.position.x,
-							dy = cj.position.y - ci.position.y;
+						var dx = cj.position.x - ci.position.x
+						,   dy = cj.position.y - ci.position.y;
 
 						// The distance between the two circles radii, but we're also gonna pad it a tiny bit
 						var r = (ci.radius + cj.radius) * 1.08,

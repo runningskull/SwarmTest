@@ -1,4 +1,5 @@
 (function() { 
+
     window.SWARM = window.SWARM || {};
 
     SWARM.klass = function() {
@@ -11,6 +12,7 @@
                 return new arguments.callee( arguments );
         };
     };
+
 }());
 
 
